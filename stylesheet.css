@@ -1,0 +1,305 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  position: sticky;
+  top:0;
+  left: 0;
+  width: 100%;
+  }
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: grey;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.image1{
+  width: 100%;
+  /* margin-top: 50px; */
+}
+.band{
+  text-align: center;
+}
+.heading_music{
+  text-align: center;
+
+}
+
+.flexbox{
+  display: flex;
+  text-align: center;
+
+}
+.firstimage{
+  padding-left: 350px;
+
+}
+.imgs{
+  width: 150px;
+  border-radius: 5px;
+  margin: 0;
+  padding: 0;
+  /* padding-left: 60px; */
+}
+.paraa{
+  text-align: center;
+  padding-left: 50px;
+}
+
+.tour{
+  background-color: black;
+  height: 670px;
+  margin-top: 100px;
+}
+.list{
+/* text-align: center; */
+list-style-type: none;
+width: 540px;
+/* margin-left: 400px; */
+background-color: white;
+/* margin-bottom: 30px; */
+display:block;
+margin:0 auto;
+}
+/* @media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
+  div.list {
+    font-size: 50px;
+    padding: 50px;
+    border: 8px solid black;
+    background: yellow;
+  }
+} */
+
+
+
+
+.Li{
+  background-color: white;
+
+}
+
+.span{
+  background-color: red;
+  color: #ddd;
+ 
+}
+.numberspan{
+  
+padding-left: 400px;
+
+}
+.inside{
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+}
+.tourheading{
+  text-align: center;
+  color: white;
+}
+.paratour{
+  text-align: center;
+  font-size: small;
+  font-style: italic;
+  color: #ddd;
+}
+
+.fleximages{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.citiesimage1{
+  width: 180px;
+  height: 130px;
+  /* margin: 2px; */
+  /* margin: 10px; */
+}
+.citiesimage2{
+  margin-left: 10px;
+  height: 130px;
+  width: 170px;
+
+}
+.citiesimage3{
+  margin-left: 10px;
+  height: 130px;
+  width: 170px;
+
+}
+
+.imagepara{
+  width: 170px;
+  padding: 5px;
+}
+.imagesdiv{
+ 
+  background-color: white;
+}
+
+.paddings{
+  padding: 3px;
+  
+}
+.datepadding{
+  padding: 10px;
+}
+.btn{
+  background-color: black;
+  color:white;
+   padding: 5px;
+   margin-left: 5px;
+   margin-bottom: 5px;
+   font-size: small;
+   
+}
+.btn:hover{
+  background-color:grey;
+  color:black;
+}
+
+.contact{
+  text-align: center;
+  
+}
+
+.contactflex{
+  display: flex;
+  justify-content: space-evenly;
+  /* border:1px solid blue; */
+  width: 70%;
+  margin: 0 auto;
+}
+@media screen and (max-width:700px){
+  .contactflex{
+    flex-direction: column;
+  }
+}
+.formdiv{
+  /* margin-left:190px; */
+
+}
+#call{
+  margin-right: 22px;
+}
+#map{
+  margin-right: 70px;
+
+}
+#msg{
+  width: 350px;
+}
+#send{
+  margin-left: 320px;
+}
+.icons{
+text-align: center;
+}
+
+#facebook:hover{
+  background-color: grey;
+}
+
+
+
+/* ---------------- */
+
+
+/* ********************* */
+
+
+
+#mainparaa {
+  margin-left: 4px;
+  /* padding-left: 350px; */
+
+
+}
+
+
+@media screen and (min-width: 480px) {
+  #mainparaa {margin-right: 216px;}
+}
+#mainparaa {margin-left: 4px;}
+
+
+@media screen and (min-width: 480px) {
+  #mainparaa {margin-right: 0px;}
+}
+
+.image-footer{
+  width: 100%;
+  height: auto;
+  /* border:1px solid red; */
+}
+.image-footer >img{
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+/* klk;lk; */
+
+.column {
+  float: left;
+  /* padding: 5px; */
+  margin-left: 200px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}

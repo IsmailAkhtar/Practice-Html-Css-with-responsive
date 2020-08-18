@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!-- <link rel="stylesheet.css"> -->
+<link rel="stylesheet" href="stylesheet.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#band">Band</a>
+  <a href="#tour">Tour</a>
+  <a href="#contact">Contact</a>
+
+  <div class="dropdown">
+    <button class="dropbtn">Menu 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Merchandais</a>
+      <a href="#">Extras</a>
+      <a href="#">Media</a>
+    </div>
+  </div> 
+</div>
+<div>
+<img id="home" class="image1" src="./images/beautiful.jpg" alt="">
+
+</div>
+
+<div  >
+    <h1 id="band" class="band" >The Band</h1>
+
+
+<h5 class="heading_music">We love music</h5>    
+<p id="mainpara" class="bandpara">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<!-- <div class="flexbox">
+  <div  class="firstimage"><p class="paraa">Name</p> <img  class="imgs" src="./images/bandmember.jpg" alt=""></div>
+<div id="secondimage"><p class="paraa">Name</p><img  class="imgs" src="./images/bandmember.jpg" alt=""></div>
+<div id="thirdimage"><p class="paraa">Name</p><img  class="imgs" src="./images/bandmember.jpg" alt=""></div>
+</div> -->
+
+<div class="row">
+  <div class="column">
+    <img class="imgs" src="./images/bandmember.jpg" alt="Snow" >
+  </div>
+  <div class="column">
+    <img class="imgs" src="./images/bandmember.jpg" alt="Forest" >
+  </div>
+  <div class="column">
+    <img class="imgs" src="./images/bandmember.jpg" alt="Mountains" >
+  </div>
+</div>
+
+<div class="tour" id="tour">
+<div>
+  <br>
+<h1 class="tourheading">Tour Dates</h1>
+
+<p class="paratour">Remember to book your tickets!</p>
+<ul class="list">
+<li class="Li">September <span class="span">Soldout</span></li><hr>
+<li class="Li">October <span class="span">Soldout</span></li><hr>
+
+<li class="Li">November <span class="numberspan">
+    <span class="inside">9</span>
+</span></li>
+
+
+</ul>
+</div>
+<div class="fleximages">
+    <div class="imagesdiv"><img class="citiesimage1" src="./images/newyork.jpg" alt="">
+<h6 class="paddings">New York</h6>
+<p class="datepadding">Fri 27 Nov 2016</p>  
+<p class="imagepara">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+
+</p>
+<button class="btn">Buy Tickets</button>
+</div>
+    <div class="imagesdiv"><img class="citiesimage2" src="./images/paris.jpg" alt="">
+        <h6 class="paddings">Paris</h6>
+        <p class="datepadding">Sat 28 Nov 2016</p>  
+        <p  class="imagepara">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+        
+        </p>
+        <button class="btn">Buy Tickets</button>
+    </div>
+    <div class="imagesdiv"><img class="citiesimage3" id="lastimage" src="./images/san.jpg" alt="">
+        <h6 class="paddings">San Francisco</h6>
+        <p class="datepadding">Sun 29 Nov 2016</p>  
+        <p  class="imagepara">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+        
+        </p>
+        <button  class="btn">Buy Tickets</button>
+        
+        </div>
+    </div>
+    
+    </div>
+</div>
+<br><br>
+<div class="contact" id="contact">
+<h1>CONTACT</h1>
+<p>Fan? Drop a note!</p>
+<div class="contactflex">
+<div >
+  <i class="fa fa-envelope" aria-hidden="true"> Email: mail@mail.com</i><br>
+  <i id="call" class="fa fa-phone" aria-hidden="true"> Phone: +00 151515
+  </i><br>
+  <i id="map" class="fa fa-map-marker" aria-hidden="true"> Chicago, US  </i>
+</div>
+<div class="formdiv" >
+  <form action="" >
+<input type="text" placeholder="Name" required >
+<input type="email" placeholder="Email" required>
+<br><br>
+<input type="text" placeholder="Message" id="msg" required>
+<br>
+<br>
+<button id="send" class="btn">Send</button>
+</form>
+</div>
+</div>
+</div>
+<br>
+<br>
+<br>
+<div class="image-footer">
+<img src="./images/map.jpg" alt="">
+</div>
+<br>
+<br>
+<br>
+
+<div class="icons">
+  <i id="facebook" class="fa fa-facebook-square" aria-hidden="true"></i>
+  <i class="fa fa-instagram" aria-hidden="true"></i>
+  <i class="fa fa-twitter" aria-hidden="true"></i>
+  <i class="fa fa-linkedin" aria-hidden="true"></i>
+  <i class="fa fa-snapchat-square" aria-hidden="true"></i>
+  <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+  <br>
+  <br>
+  <p>Powered By Ismail Akhtar</p>
+</div>
+</body>
+<script>
+  function openForm() {
+    document.getElementById("myForm").style.display = "block";
+  }
+  
+  function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+  }
+  </script>
+</html>
